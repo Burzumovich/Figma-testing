@@ -4,27 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burger-main-page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="nav-menu">
-        <nav class="navigation"></nav>
-        <a href="#">
-            <img src="pictures/Логотип.png" alt="Логотип">
-        </a>
-        <ul class="nav-list">
-            <li>
-                <a href="#" class="nav-main">Главная</a>
-            </li>
-            <li>
-                <a href="#" class="nav-akcii">Акции</a>
-            </li>
-            <li>
-                <a href="#" class="nav-about-us">О нас</a>
-            </li>
-        </ul>
-        <button class="nav-button" type="button">
-            <img src="pictures/Кнопка _Корзина_.png" class="nav-menu-basket-img">
-        </button>
+        <nav class="navigation">
+            <a href="#">
+                <img src="pictures/Логотип.png" alt="Логотип" class="logo">
+            </a>
+            <ul class="nav-list">
+                <li>
+                    <a href="#" class="nav-main">Главная</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-main">Акции</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-main">О нас</a>
+                </li>
+            </ul>
+            <button class="nav-button" type="button">
+                <img src="pictures/Кнопка _Корзина_.png" class="nav-menu-basket-img">
+            </button>
+        </nav>
         <div class="container-page-header">
             <ul class="text-header-list">
                 <li>
@@ -34,11 +36,11 @@
                     <p class="text-header-discount">Сделай первый заказ и получи скидку 50%</p>
                 </li>
                 <li>
-                    <button class="container-button-header" type="button">Заказать</button>
+                    <button class="ctonainer-button-header" type="button">Заказать</button>
                 </li>
             </ul>
             <div>
-                <img src="pictures/Фото _Бургер_.jpg" alt="burger-img" width="642" height="600">
+                <img src="pictures/Фото _Бургер_ (1).png" alt="burger-img" width="642" height="600">
             </div>
         </div>
     </header>
@@ -77,7 +79,41 @@
 
     </main>
 
-    <footer>
+    <footer class="page-footer">
+        <ul class="footer-list">
+            <li>
+                <a href="#" class="footer-title">Программа лояльности</a>
+            </li>
+            <li>
+                <a href="#" class="footer-title">Политика конфиденциальности</a>
+            </li>
+            <li>
+                <a href="#" class="footer-title">Договор оферты</a>
+            </li>
+        </ul>
+
+        <ul class="footer-page-text">
+            <li>
+                <p class="footer-text">OOO "Vintage food"</p>
+            </li>
+            <li>
+                <p class="footer-text">© Все права защищены</p>
+            </li>
+        </ul>
+
+        <ul class="footer-contacts">
+            <li>
+                <a href="#">
+                    <img src="pictures/VK Circled.png" alt="vk" width="50" height="50" class="footer-imgs">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="pictures/Telegram.png" alt="tg" width="60" height="60" class="footer-imgs">
+                </a>
+            </li>
+
+        </ul>
 
     </footer>
 
